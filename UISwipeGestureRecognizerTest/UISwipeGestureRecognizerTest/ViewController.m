@@ -147,6 +147,7 @@
     
     NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
     
+    //测试加注释
 }
 
 - (void)webSocket:(SRWebSocket *)webSocket didFailWithError:(NSError *)error
