@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B83C64FA1D45B3CF008BCC6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B83C64F91D45B3CF008BCC6C /* main.m */; };
+		B83C64FD1D45B3CF008BCC6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83C64FC1D45B3CF008BCC6C /* AppDelegate.m */; };
+		B83C65001D45B3CF008BCC6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83C64FF1D45B3CF008BCC6C /* ViewController.m */; };
+		B83C65031D45B3CF008BCC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83C65011D45B3CF008BCC6C /* Main.storyboard */; };
+		B83C65051D45B3CF008BCC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83C65041D45B3CF008BCC6C /* Assets.xcassets */; };
+		B83C65081D45B3CF008BCC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83C65061D45B3CF008BCC6C /* LaunchScreen.storyboard */; };
+		B83C65131D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83C65121D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.m */; };
+		B83C651E1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83C651D1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.m */; };
+		B88887431D49FA5400D394C0 /* VVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88887421D49FA5400D394C0 /* VVC.swift */; };
+		B88887861D4A06D400D394C0 /* DDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88887851D4A06D400D394C0 /* DDC.swift */; };
+		EDF989824A1D731174A57C3C /* Pods_UISwipeGestureRecognizerTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C0DC023C5448BCF6B80B90 /* Pods_UISwipeGestureRecognizerTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B83C650F1D45B3CF008BCC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B83C64ED1D45B3CF008BCC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83C64F41D45B3CF008BCC6C;
+			remoteInfo = UISwipeGestureRecognizerTest;
+		};
+		B83C651A1D45B3CF008BCC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B83C64ED1D45B3CF008BCC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83C64F41D45B3CF008BCC6C;
+			remoteInfo = UISwipeGestureRecognizerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306B510B76E917A7D46613BA /* Pods-UISwipeGestureRecognizerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISwipeGestureRecognizerTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UISwipeGestureRecognizerTest/Pods-UISwipeGestureRecognizerTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B83C64F51D45B3CF008BCC6C /* UISwipeGestureRecognizerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISwipeGestureRecognizerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83C64F91D45B3CF008BCC6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B83C64FB1D45B3CF008BCC6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B83C64FC1D45B3CF008BCC6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B83C64FE1D45B3CF008BCC6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B83C64FF1D45B3CF008BCC6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B83C65021D45B3CF008BCC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B83C65041D45B3CF008BCC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B83C65071D45B3CF008BCC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B83C65091D45B3CF008BCC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83C650E1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISwipeGestureRecognizerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83C65121D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwipeGestureRecognizerTestTests.m; sourceTree = "<group>"; };
+		B83C65141D45B3CF008BCC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83C65191D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISwipeGestureRecognizerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83C651D1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwipeGestureRecognizerTestUITests.m; sourceTree = "<group>"; };
+		B83C651F1D45B3CF008BCC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88887421D49FA5400D394C0 /* VVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVC.swift; sourceTree = "<group>"; };
+		B88887841D4A01BF00D394C0 /* UISwipeGestureRecognizerTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISwipeGestureRecognizerTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		B88887851D4A06D400D394C0 /* DDC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDC.swift; sourceTree = "<group>"; };
+		E7C0DC023C5448BCF6B80B90 /* Pods_UISwipeGestureRecognizerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UISwipeGestureRecognizerTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F054B90EA158D906F2F41DF2 /* Pods-UISwipeGestureRecognizerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISwipeGestureRecognizerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-UISwipeGestureRecognizerTest/Pods-UISwipeGestureRecognizerTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B83C64F21D45B3CF008BCC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF989824A1D731174A57C3C /* Pods_UISwipeGestureRecognizerTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83C650B1D45B3CF008BCC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83C65161D45B3CF008BCC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C7BEA58325E11C2F53EDFBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				306B510B76E917A7D46613BA /* Pods-UISwipeGestureRecognizerTest.debug.xcconfig */,
+				F054B90EA158D906F2F41DF2 /* Pods-UISwipeGestureRecognizerTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FDC7BEB8B33BA0D3EE94171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7C0DC023C5448BCF6B80B90 /* Pods_UISwipeGestureRecognizerTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B83C64EC1D45B3CF008BCC6C = {
+			isa = PBXGroup;
+			children = (
+				B83C64F71D45B3CF008BCC6C /* UISwipeGestureRecognizerTest */,
+				B83C65111D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests */,
+				B83C651C1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests */,
+				B83C64F61D45B3CF008BCC6C /* Products */,
+				7C7BEA58325E11C2F53EDFBC /* Pods */,
+				7FDC7BEB8B33BA0D3EE94171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B83C64F61D45B3CF008BCC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B83C64F51D45B3CF008BCC6C /* UISwipeGestureRecognizerTest.app */,
+				B83C650E1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.xctest */,
+				B83C65191D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B83C64F71D45B3CF008BCC6C /* UISwipeGestureRecognizerTest */ = {
+			isa = PBXGroup;
+			children = (
+				B83C64FB1D45B3CF008BCC6C /* AppDelegate.h */,
+				B83C64FC1D45B3CF008BCC6C /* AppDelegate.m */,
+				B88887841D4A01BF00D394C0 /* UISwipeGestureRecognizerTest-Bridging-Header.h */,
+				B83C64FE1D45B3CF008BCC6C /* ViewController.h */,
+				B83C64FF1D45B3CF008BCC6C /* ViewController.m */,
+				B88887421D49FA5400D394C0 /* VVC.swift */,
+				B88887851D4A06D400D394C0 /* DDC.swift */,
+				B83C65011D45B3CF008BCC6C /* Main.storyboard */,
+				B83C65041D45B3CF008BCC6C /* Assets.xcassets */,
+				B83C65061D45B3CF008BCC6C /* LaunchScreen.storyboard */,
+				B83C65091D45B3CF008BCC6C /* Info.plist */,
+				B83C64F81D45B3CF008BCC6C /* Supporting Files */,
+			);
+			path = UISwipeGestureRecognizerTest;
+			sourceTree = "<group>";
+		};
+		B83C64F81D45B3CF008BCC6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83C64F91D45B3CF008BCC6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B83C65111D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B83C65121D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.m */,
+				B83C65141D45B3CF008BCC6C /* Info.plist */,
+			);
+			path = UISwipeGestureRecognizerTestTests;
+			sourceTree = "<group>";
+		};
+		B83C651C1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B83C651D1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.m */,
+				B83C651F1D45B3CF008BCC6C /* Info.plist */,
+			);
+			path = UISwipeGestureRecognizerTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B83C64F41D45B3CF008BCC6C /* UISwipeGestureRecognizerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83C65221D45B3CF008BCC6C /* Build configuration list for PBXNativeTarget "UISwipeGestureRecognizerTest" */;
+			buildPhases = (
+				C9B6D51655F931E3B14FD167 /* [CP] Check Pods Manifest.lock */,
+				B83C64F11D45B3CF008BCC6C /* Sources */,
+				B83C64F21D45B3CF008BCC6C /* Frameworks */,
+				B83C64F31D45B3CF008BCC6C /* Resources */,
+				641673AF0AB1C829E2AD049B /* [CP] Embed Pods Frameworks */,
+				D5B2BD368D218E8E9727798D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISwipeGestureRecognizerTest;
+			productName = UISwipeGestureRecognizerTest;
+			productReference = B83C64F51D45B3CF008BCC6C /* UISwipeGestureRecognizerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B83C650D1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83C65251D45B3CF008BCC6C /* Build configuration list for PBXNativeTarget "UISwipeGestureRecognizerTestTests" */;
+			buildPhases = (
+				B83C650A1D45B3CF008BCC6C /* Sources */,
+				B83C650B1D45B3CF008BCC6C /* Frameworks */,
+				B83C650C1D45B3CF008BCC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B83C65101D45B3CF008BCC6C /* PBXTargetDependency */,
+			);
+			name = UISwipeGestureRecognizerTestTests;
+			productName = UISwipeGestureRecognizerTestTests;
+			productReference = B83C650E1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B83C65181D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83C65281D45B3CF008BCC6C /* Build configuration list for PBXNativeTarget "UISwipeGestureRecognizerTestUITests" */;
+			buildPhases = (
+				B83C65151D45B3CF008BCC6C /* Sources */,
+				B83C65161D45B3CF008BCC6C /* Frameworks */,
+				B83C65171D45B3CF008BCC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B83C651B1D45B3CF008BCC6C /* PBXTargetDependency */,
+			);
+			name = UISwipeGestureRecognizerTestUITests;
+			productName = UISwipeGestureRecognizerTestUITests;
+			productReference = B83C65191D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B83C64ED1D45B3CF008BCC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RNT;
+				TargetAttributes = {
+					B83C64F41D45B3CF008BCC6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q5RU8B436R;
+					};
+					B83C650D1D45B3CF008BCC6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q5RU8B436R;
+						TestTargetID = B83C64F41D45B3CF008BCC6C;
+					};
+					B83C65181D45B3CF008BCC6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q5RU8B436R;
+						TestTargetID = B83C64F41D45B3CF008BCC6C;
+					};
+				};
+			};
+			buildConfigurationList = B83C64F01D45B3CF008BCC6C /* Build configuration list for PBXProject "UISwipeGestureRecognizerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B83C64EC1D45B3CF008BCC6C;
+			productRefGroup = B83C64F61D45B3CF008BCC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83C64F41D45B3CF008BCC6C /* UISwipeGestureRecognizerTest */,
+				B83C650D1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests */,
+				B83C65181D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B83C64F31D45B3CF008BCC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83C65081D45B3CF008BCC6C /* LaunchScreen.storyboard in Resources */,
+				B83C65051D45B3CF008BCC6C /* Assets.xcassets in Resources */,
+				B83C65031D45B3CF008BCC6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83C650C1D45B3CF008BCC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83C65171D45B3CF008BCC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		641673AF0AB1C829E2AD049B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISwipeGestureRecognizerTest/Pods-UISwipeGestureRecognizerTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B6D51655F931E3B14FD167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B2BD368D218E8E9727798D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISwipeGestureRecognizerTest/Pods-UISwipeGestureRecognizerTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B83C64F11D45B3CF008BCC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83C65001D45B3CF008BCC6C /* ViewController.m in Sources */,
+				B88887431D49FA5400D394C0 /* VVC.swift in Sources */,
+				B83C64FD1D45B3CF008BCC6C /* AppDelegate.m in Sources */,
+				B83C64FA1D45B3CF008BCC6C /* main.m in Sources */,
+				B88887861D4A06D400D394C0 /* DDC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83C650A1D45B3CF008BCC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83C65131D45B3CF008BCC6C /* UISwipeGestureRecognizerTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83C65151D45B3CF008BCC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83C651E1D45B3CF008BCC6C /* UISwipeGestureRecognizerTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B83C65101D45B3CF008BCC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B83C64F41D45B3CF008BCC6C /* UISwipeGestureRecognizerTest */;
+			targetProxy = B83C650F1D45B3CF008BCC6C /* PBXContainerItemProxy */;
+		};
+		B83C651B1D45B3CF008BCC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B83C64F41D45B3CF008BCC6C /* UISwipeGestureRecognizerTest */;
+			targetProxy = B83C651A1D45B3CF008BCC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B83C65011D45B3CF008BCC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83C65021D45B3CF008BCC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B83C65061D45B3CF008BCC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83C65071D45B3CF008BCC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B83C65201D45B3CF008BCC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B83C65211D45B3CF008BCC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B83C65231D45B3CF008BCC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306B510B76E917A7D46613BA /* Pods-UISwipeGestureRecognizerTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = UISwipeGestureRecognizerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednovo.UISwipeGestureRecognizerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/UISwipeGestureRecognizerTest/UISwipeGestureRecognizerTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B83C65241D45B3CF008BCC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F054B90EA158D906F2F41DF2 /* Pods-UISwipeGestureRecognizerTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = UISwipeGestureRecognizerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednovo.UISwipeGestureRecognizerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/UISwipeGestureRecognizerTest/UISwipeGestureRecognizerTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B83C65261D45B3CF008BCC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UISwipeGestureRecognizerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednovo.UISwipeGestureRecognizerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISwipeGestureRecognizerTest.app/UISwipeGestureRecognizerTest";
+			};
+			name = Debug;
+		};
+		B83C65271D45B3CF008BCC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UISwipeGestureRecognizerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednovo.UISwipeGestureRecognizerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISwipeGestureRecognizerTest.app/UISwipeGestureRecognizerTest";
+			};
+			name = Release;
+		};
+		B83C65291D45B3CF008BCC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UISwipeGestureRecognizerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednovo.UISwipeGestureRecognizerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UISwipeGestureRecognizerTest;
+			};
+			name = Debug;
+		};
+		B83C652A1D45B3CF008BCC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UISwipeGestureRecognizerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rednovo.UISwipeGestureRecognizerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UISwipeGestureRecognizerTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B83C64F01D45B3CF008BCC6C /* Build configuration list for PBXProject "UISwipeGestureRecognizerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83C65201D45B3CF008BCC6C /* Debug */,
+				B83C65211D45B3CF008BCC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83C65221D45B3CF008BCC6C /* Build configuration list for PBXNativeTarget "UISwipeGestureRecognizerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83C65231D45B3CF008BCC6C /* Debug */,
+				B83C65241D45B3CF008BCC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83C65251D45B3CF008BCC6C /* Build configuration list for PBXNativeTarget "UISwipeGestureRecognizerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83C65261D45B3CF008BCC6C /* Debug */,
+				B83C65271D45B3CF008BCC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83C65281D45B3CF008BCC6C /* Build configuration list for PBXNativeTarget "UISwipeGestureRecognizerTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83C65291D45B3CF008BCC6C /* Debug */,
+				B83C652A1D45B3CF008BCC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B83C64ED1D45B3CF008BCC6C /* Project object */;
+}

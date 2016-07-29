@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+target "UISwipeGestureRecognizerTest" do
+
+pod 'AFNetworking'
+pod 'Socket.IO-Client-Swift', '~> 6.1.5' 
+pod 'SocketRocket'
+
+end
