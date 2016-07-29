@@ -1,33 +1,13 @@
-# Created by https://www.gitignore.io/api/osx
+*.xcuserstate  
 
-### OSX ###
-.DS_Store
-.AppleDouble
-.LSOverride
+project.xcworkspace  
 
-# Icon must end with two \r
-Icon
+xcuserdata  
 
+UserInterfaceState.xcuserstate  
 
-# Thumbnails
-._*
+project.xcworkspace/  
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+xcuserdata/  
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-lib/
-*.ipa
-xcuserdata
-Pods/
+UserInterface.xcuserstate
